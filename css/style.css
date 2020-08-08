@@ -117,6 +117,7 @@ footer{
 }
 .footer-right ul li a{
     text-decoration: none;
+    color: black;
 }
 .footer-left{
     display: flex;
@@ -134,5 +135,6 @@ footer{
 }
 .footer-left ul li a{
     text-decoration: none;
+    color: black;
 }
 .footer-left ul li a i{}
