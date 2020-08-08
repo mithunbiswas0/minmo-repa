@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    display: block;
+}
+header{
+    margin: 30px 0;
+    overflow: hidden;
+}
+.contaner{
+    width: 900px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 20%;
+}
+.contaner ul{
+    display: flex;
+    width: 80%;
+    margin: 0;
+    justify-content: flex-end;
+}
+.contaner ul li{
+    list-style-type: none;
+    padding-left: 89px;
+    font-family: 'PT Serif', serif;
+}
+.contaner ul li a{
+    text-decoration: none;
+    color: #c4c8cb;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.banner-img{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+section{
+    font-family: 'PT Serif', serif;
+}
+.warp{
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+}
+h3{
+    padding: 15px 0;
+    margin: 0;
+}
+h3 a{
+    text-decoration: none;
+    color: #c4c8cb;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+h1{
+    color: #696969;
+    margin: 0;
+    padding: 15px 0;
+    font-size: 30px;
+}
+p{
+    margin: 0;
+    padding: 25px 0;
+    line-height: 30px;
+    font-family: 'Lobster', cursive;
+}
+.section-last-part{
+    display: flex;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+.left-right-part{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.img{
+    width: 100%;
+    display: block;
+    padding: 20px 0;
+}
+.log-1-2{
+    width: 45%;
+}
+.log-1-2 h1{
+    font-size: 24px;
+    color: #696969;
+}
+footer{
+    background-color: #c4c8cb;
+    margin-top: 45px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-family: 'PT Serif', serif;
+}
+.footer-part{
+    display: flex;
+    width: 800px;
+    margin: auto;
+}
+.footer-right{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+.footer-right ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 30px 0;
+}
+.footer-right ul li{
+    margin-right: 26px;
+}
+.footer-right ul li a{
+    text-decoration: none;
+}
+.footer-left{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+.footer-left ul{
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    padding: 30px 0;
+}
+.footer-left ul li{
+    margin-left: 25px;
+}
+.footer-left ul li a{
+    text-decoration: none;
+}
+.footer-left ul li a i{}
